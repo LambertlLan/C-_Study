@@ -32,6 +32,7 @@ class Test
 int
 main()
 {
+    //谁先构造,谁后析构
     Test t1(100, 200);
     Test t2(t1);
     //同样会拷贝构造函数
